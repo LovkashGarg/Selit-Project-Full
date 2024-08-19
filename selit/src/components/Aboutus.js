@@ -1,0 +1,14 @@
+import React from 'react'
+import Aboutusimage from './Aboutusimage.jpg'
+const Aboutus = () => {
+  return (
+   <> <div className="abouttitle text-center">Aboutus</div>
+    <div className='flex'>
+        <img src={Aboutusimage} alt="aboutusimage"  className='w-[400px] m-[40px] h-[300px]'/>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, excepturi optio aperiam, error eius rerum vero, explicabo qui provident doloribus nobis aliquid? Quod beatae, nobis accusamus facilis vitae ipsam quaerat necessitatibus provident, tempore iure, labore molestias cupiditate! Eos facilis pariatur soluta illo fugit, vero nobis. Nam dolor quaerat voluptates mollitia id adipisci minus dolorum debitis dicta pariatur, quo recusandae, culpa aut iste fuga expedita odit eum distinctio non nesciunt, est possimus architecto? Minus officiis expedita quaerat. Sequi ex quo, corrupti perferendis optio ipsum similique nostrum blanditiis totam, voluptatum beatae, quia eum. Tempore quo, iusto recusandae distinctio, accusantium voluptatem, corrupti optio iste dignissimos veniam autem. Adipisci libero dolorum consectetur blanditiis suscipit explicabo necessitatibus asperiores mollitia debitis repellat aliquid, provident beatae voluptas? Sit veritatis hic nihil adipisci fuga natus voluptatem vero. Non vitae commodi, laudantium, excepturi alias eveniet itaque assumenda sapiente explicabo, rerum aliquam id voluptates atque ab amet magnam dicta eos placeat et quo ad. Cum repudiandae eius iusto praesentium ea, adipisci necessitatibus qui! Voluptas, sunt atque. Nisi et recusandae esse fugit quo magnam amet maiores. Excepturi et perferendis necessitatibus ab aut! Necessitatibus ipsam nulla dicta sunt facilis repellendus, placeat perferendis sit molestiae quam voluptatem quia numquam sint ipsa velit accusantium cupiditate veritatis autem mollitia saepe voluptas recusandae? Nam unde, deleniti doloribus minus explicabo illo quae quas! Facere vero velit natus repellendus obcaecati, ut labore tempora quidem adipisci amet, quae consequatur vel, nesciunt corporis accusantium voluptatibus. Voluptates neque quis quia sequi deleniti est iure ex voluptatum similique dolore sint eveniet, hic minima molestiae officiis reiciendis, expedita nemo quos sunt optio sit incidunt odit doloribus eaque! Atque suscipit animi ratione ipsa error, commodi in consequuntur consectetur vero facilis iure, saepe odio enim fugiat distinctio quas culpa, impedit quod et sequi eveniet necessitatibus voluptas voluptates! Odio autem voluptatibus illo provident eos neque. Repellendus a iste corrupti fugit eum aliquam repudiandae suscipit illum omnis.</p>
+    </div>
+    </>
+  )
+}
+
+export default Aboutus

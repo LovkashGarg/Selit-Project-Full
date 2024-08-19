@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+body{
+  --tw-bg-opacity: 1;
+ background-color:  rgb(248 250 252 );
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loginpage-wrapper{
+  z-index: 100;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:fixed;
+  opacity: 0.4;
+
+}
+
+.loginpage-container{
+  position: fixed;
+  background:white;
+  top:13%;
+  right:30%;
+  border-radius: 20px;
+}
+.btn{
+  color:white;
+  width:170px;
+height:50px;
+margin:30px;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#other{
+  width:100%;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+}
+#other .message-content{
+  background-color: rgb(44, 44, 183);
+  color:white;
+}
+#you .message-content{
+  background-color: rgb(27, 216, 87);
+  color:white;
+}
+#you{
+  width:100%;
+  flex-direction: column;
+  color:white;
+  display: flex;
+  align-items:end;
+}
+.message-container{
+  width:100%;
+  height:100%;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  display:flex;
+}
+/* <<<<<<< HEAD */
+.loader{
+  border: 10px solid white;
+  border-top: 10px solid blue;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  display: flex;
+justify-content: center;
+align-items: center;
+animation: spin 0.5s infinite;
+}
+.wrapperclass{
+  z-index: 100;
+  font-size: 25px;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content:space-evenly;
+  align-items: center;
+  opacity: 0.9;
+}
+@keyframes spin{
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 300px) and (max-width:800px) {
+/* >>>>>>> origin/main */
+  html{
+    width:auto;
+  }
+ .main{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height:300vh;
+ }
+ .cards-columns{
+  margin-bottom: 70px;
+ }
+ .outer{
+/* <<<<<<< HEAD */
+  width:100px;
+ }
+ .selectproductbutoon{
+  font-size: 15px;
+/* ======= */
+  width: 500px;
+/* >>>>>>> origin/main */
+ }
+ .card{
+  width:500px;
+  margin-left:5px;
+ }
+ /* .navigators{
+  /* display:none; */
+ /* } */ 
+ Card{
+  width:400px;
+ }
+ .navbar{
+  width:auto;
+ }
+ Chatroom{
+  padding:100px;
+  margin:100px;
+ }
+ .carousel{
+  margin:50px 0px;
+  width:1000px;
+ }
+}

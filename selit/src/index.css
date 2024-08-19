@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.select{
+background-color: rgb(43, 129, 234);
+}
