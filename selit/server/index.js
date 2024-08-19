@@ -5,6 +5,7 @@ const cors = require("cors");
 //Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 // Donot add start script if using nodemon 
 const { Server } = require("socket.io")
+const PORT=process.env.PORT || 5000
 app.use(cors());
 const server = http.createServer(app);
 
@@ -37,6 +38,6 @@ io.on("connection", (socket) => {
     })
 }) // means we are listening for the event name conncection
 
-server.listen(5000, () => {
+server.listen(PORT, () => {
     console.log("Server Connected");
 })
