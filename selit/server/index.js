@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "http://localhost:3000", //  we have to write where our react would be running 
+        origin: "https://selit-project-frontend.onrender.com", //  we have to write where our react would be running 
         methods: ["GET", "POST"],
     },
 })
