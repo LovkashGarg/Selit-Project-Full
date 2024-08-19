@@ -7,7 +7,7 @@ const cors=require('cors');
 
 const payment=require('./Routes/payment');
 connectToMongo();
-const port = 4000
+const port = process.env.PORT|| 6000
 
 // middleware
 app.use(express.json());

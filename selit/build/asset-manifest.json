@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81fb2bbe.css",
+    "main.js": "/static/js/main.27c2a87c.js",
+    "static/js/787.49ba4d94.chunk.js": "/static/js/787.49ba4d94.chunk.js",
+    "static/media/Aboutusimage.jpg": "/static/media/Aboutusimage.d91de706d68a02f38eec.jpg",
+    "index.html": "/index.html",
+    "main.81fb2bbe.css.map": "/static/css/main.81fb2bbe.css.map",
+    "main.27c2a87c.js.map": "/static/js/main.27c2a87c.js.map",
+    "787.49ba4d94.chunk.js.map": "/static/js/787.49ba4d94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81fb2bbe.css",
+    "static/js/main.27c2a87c.js"
+  ]
+}
