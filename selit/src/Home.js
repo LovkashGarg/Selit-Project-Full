@@ -392,7 +392,7 @@ let [items,setItems]=useState([]);
             <button><div className='bg-slate-500 rounded-[10px]  text-white m-[10px]'>Book Status</div></button>
             <Link to='/orderstatus'><div className='bg-slate-500 rounded-[10px] px-[20px]  text-white m-[10px]'>Orders</div></Link>
           </div>
-          <Link className="navigate font-mono  text-[30px]   hover:bg-slate-300  my-[24px] rounded-[20px] h-[60px] pl-[5px] w-[150px] mx-[10px]" to='/aboutus'>About us</Link>
+          <Link className="navigate font-mono  text-[30px]   hover:bg-slate-300  my-[24px] rounded-[20px] h-[60px] pl-[5px] w-[150px] mx-[10px]" to='/aboutus' >About us</Link>
           <button className="navigate font-mono  rounded-[20px] text-[30px] mt-[10px] flex items-center bg-slate-400 text-white px-[15px] flex h-[65px] w-[150px]" onClick={showlogin}><h2 >Login</h2> <CgAdidas className='my-[10px]' /></button>
           {showloginpage && <Loginwindow />}
         </div >
